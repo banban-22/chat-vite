@@ -3,8 +3,6 @@ import { XMarkIcon, PaperClipIcon, PaperAirplaneIcon } from "@heroicons/react/24
 import Dropzone from "react-dropzone"
 
 const StandardMessageForm = ({ props, activeChat }) => {
-  console.log(props)
-  console.log(activeChat)
     const [message, setMessage] = useState("")
     const [attachment, setAttachment] = useState("")
     const [preview, setPreview] = useState("")
